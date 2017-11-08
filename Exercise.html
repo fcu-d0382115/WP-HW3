@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>A first program in javaS</title>
+		<script>
+			var temperature;
+			var trans;
+			
+			temperature = window.prompt("Please enter the temperature");
+			
+			number = parseInt( temperature );
+			
+			document.writeln("<h1>攝氏: "+ number + " C</h1>");
+			
+			trans( number );
+			
+			document.writeln("<h1>華氏:" + trans + " F</h1>");
+			
+			function trans( temperature )
+			{
+				return	trans = (temperature + 40) * 1.8 - 40;
+			}
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>
